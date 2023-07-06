@@ -1,0 +1,22 @@
+.picture {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.picture img {
+    border-radius: 20px;
+}
+
+.text {
+    text-align: center;
+    background-color: rgb(0, 153, 255);
+    margin: 20px 100px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+span{
+    text-size-adjust: 20px;
+    color: white;
+
+}

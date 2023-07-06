@@ -1,0 +1,28 @@
+{% extends 'base/base.html' %}
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 p-2">
+            <h3>Your Requests</h3>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12 p-2">
+            <form method="GET" action="{% url 'create-thread' %}">
+                <button class="btn btn-dark p-3" type="submit">Send a request</button>
+            </form>
+        </div>
+    </div>
+    
+    {% for thread in threads.all %}
+        <div class="row mb-3">
+            <div class="card col-md-12 p-3 shadow-sm">
+                <a class="stretched-link" href="{% url 'thread' thread.pk %}">
+                    <h5>{{ thread.user }} - {{ thread.receiver }}</h5>
+                </a>
+            </div>
+        </div>
+    {% endfor %}
+</div>
+{% endblock %}

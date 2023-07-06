@@ -1,0 +1,67 @@
+{% extends 'base/base.html' %}
+{% load crispy_forms_tags %}
+{% load static %}
+
+{% block content %}
+    <article class="media content-section">
+        <img class="rounded-circle article-img" src="{{ post.author.profile.image.url }}" alt="">
+        <div class="media-body">
+        <div class="article-metadata">
+            <a class="mr-2" href="{% url 'user-posts' post.author.username %}">{{ post.author }}</a>
+            <small class="text-muted">{{ post.date_posted }}</small>
+            {% if post.author == user %}
+                <div>
+                    <a class="btn btn-secondary btn-sm mt-1 mb-1" href="{% url 'post-update' post.id %}">Update</a>
+                    <a class="btn btn-danger btn-sm mt-1 mb-1" href="{% url 'post-delete' post.id %}">Delete</a>
+                </div>
+            {% endif %}
+        </div>
+        <h3 class="article-title">{{ post.title }}</h3>
+        {% if post.image %}
+                <img src="{{ post.image.url }}" class="post-image">
+        {% endif %}
+        <p class="article-content">{{ post.content }}</p>
+    </div>
+</article>
+<article>
+        <div class="row justify-content-left mt-3 mb-5">
+            <div class="col-md-10 col-sm-5">
+                <form method="POST">
+                    {% csrf_token %}
+                    {{ form | crispy }}
+                    <div class="d-grid gap-2">
+                        <button class="btn btn-success mt-3">Comment!</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    
+        {% for comment in comments %}
+            <div class="row justify-content-left mt-3 mb-3">
+                <div class="col-md-10 col-sm-5 border-buttom">
+                    <p><strong>{{ comment.author }}</strong> {{ comment.created_on }}
+                    {% if comment.author == user %}
+                        <a href="{% url 'comment-delete' post.pk comment.pk %}" style="color: #333"><i class="fas fa-trash"></i></a>
+                    {% endif %}
+                    </p>
+                    <p class="article-content">{{ comment.content }}</p>
+                </div>
+            </div>
+            <div>
+                <button class="remove-default-btn"><i class="far fa-comment-dots" onclick="commentReplyToggle('{{ comment.pk }}')"></i></button>
+            </div>
+            <div class="row justify-content-left mt-3 mb-5 d-none" id="{{ comment.pk }}">
+                <div class="col-md-10 col-sm-5">
+                    <form method="POST">
+                        {% csrf_token %}
+                        {{ form | crispy }}
+                        <div class="d-grid gap-2">
+                            <button class="btn btn-success mt-3">Comment!</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        {% endfor %}
+        <script type="text/javascript" src="{% static 'base/semantic.js' %}"></script>
+</article>
+{% endblock %}

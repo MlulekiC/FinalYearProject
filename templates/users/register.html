@@ -1,0 +1,17 @@
+{% extends 'base/base.html' %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+    <div class="content-section">
+        <form method="post">
+            <fieldset class="form-group">
+                <legend class="border-bottom mb-4">Choose Role</legend>
+                <a href="{% url 'register-resident' %}">Resident</a><br>
+                <a href="{% url 'register-staff' %}">Municipality personel</a>
+            </fieldset>
+        </form>
+        <div class="border-top pt-3">
+            <small class="text-muted">Already have an account? <a class="ml-2" href="{% url 'login' %}">Sign In</a></small>
+        </div>
+    </div>
+{% endblock %}

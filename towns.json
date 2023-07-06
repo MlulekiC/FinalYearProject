@@ -1,0 +1,382 @@
+[
+    {
+        "name": "Dannhauser",
+        "municipality": 1,
+        "district_id": 2
+    },
+    {
+        "name": "Hattingspruit",
+        "municipality": 1,
+        "district_id": 2
+    },
+    {
+        "name": "Utrecht",
+        "municipality": 2,
+        "district_id": 2
+    },
+    {
+        "name": "Charlestown",
+        "municipality": 3,
+        "district_id": 2
+    },
+    {
+        "name": "Newcastle",
+        "municipality": 3,
+        "district_id": 2
+    },
+    {
+        "name": "Creighton",
+        "municipality": 4,
+        "district_id": 3
+    },
+    {
+        "name": "Himeville",
+        "municipality": 4,
+        "district_id": 3
+    },
+    {
+        "name": "Underberg",
+        "municipality": 4,
+        "district_id": 3
+    },
+    {
+        "name": "Kokstad",
+        "municipality": 5,
+        "district_id": 3
+    },
+    {
+        "name": "Ixopo",
+        "municipality": 6,
+        "district_id": 3
+    },
+    {
+        "name": "uMzimkhulu",
+        "municipality": 7,
+        "district_id": 3
+    },
+    {
+        "name": "Dolphin Coast/Ballito",
+        "municipality": 8,
+        "district_id": 4
+    },
+    {
+        "name": "KwaDukuza",
+        "municipality": 8,
+        "district_id": 4
+    },
+    {
+        "name": "Nkwazi/Zinkwazi Beach",
+        "municipality": 8,
+        "district_id": 4
+    },
+    {
+        "name": "Isithebe",
+        "municipality": 9,
+        "district_id": 4
+    },
+    {
+        "name": "Mandeni",
+        "municipality": 9,
+        "district_id": 4
+    },
+    {
+        "name": "Maphumulo",
+        "municipality": 10,
+        "district_id": 4
+    },
+    {
+        "name": "Ndwedwe",
+        "municipality": 11,
+        "district_id": 4
+    },
+    {
+        "name": "Empangeni",
+        "municipality": 12,
+        "district_id": 5
+    },
+    {
+        "name": "Richards Bay",
+        "municipality": 12,
+        "district_id": 5
+    },
+    {
+        "name": "Melmoth",
+        "municipality": 13,
+        "district_id": 5
+    },
+    {
+        "name": "Ntambanana",
+        "municipality": 13,
+        "district_id": 5
+    },
+    {
+        "name": "Nkandla",
+        "municipality": 14,
+        "district_id": 5
+    },
+    {
+        "name": "KwaMbonambi",
+        "municipality": 15,
+        "district_id": 5
+    },
+    {
+        "name": "Eshowe",
+        "municipality": 16,
+        "district_id": 5
+    },
+    {
+        "name": "KwaGingindlovu",
+        "municipality": 16,
+        "district_id": 5
+    },
+    {
+        "name": "Mtunzini",
+        "municipality": 16,
+        "district_id": 5
+    },
+    {
+        "name": "Hibberdene",
+        "municipality": 17,
+        "district_id": 6
+    },
+    {
+        "name": "Margate",
+        "municipality": 17,
+        "district_id": 6
+    },
+    {
+        "name": "Port Edward",
+        "municipality": 17,
+        "district_id": 6
+    },
+    {
+        "name": "Port Shepstone",
+        "municipality": 17,
+        "district_id": 6
+    },
+    {
+        "name": "Southbroom",
+        "municipality": 17,
+        "district_id": 6
+    },
+    {
+        "name": "Pennington",
+        "municipality": 18,
+        "district_id": 6
+    },
+    {
+        "name": "Scottburgh/Umzinto North",
+        "municipality": 18,
+        "district_id": 6
+    },
+    {
+        "name": "Harding",
+        "municipality": 19,
+        "district_id": 6
+    },
+    {
+        "name": "Umzumbe",
+        "municipality": 20,
+        "district_id": 6
+    },
+    {
+        "name": "Impendle",
+        "municipality": 21,
+        "district_id": 7
+    },
+    {
+        "name": "Camperdown",
+        "municipality": 22,
+        "district_id": 7
+    },
+    {
+        "name": "Mooi River",
+        "municipality": 23,
+        "district_id": 7
+    },
+    {
+        "name": "Ashburton",
+        "municipality": 24,
+        "district_id": 7
+    },
+    {
+        "name": "Pietermaritzburg",
+        "municipality": 24,
+        "district_id": 7
+    },
+    {
+        "name": "Richmond",
+        "municipality": 25,
+        "district_id": 7
+    },
+    {
+        "name": "Hilton",
+        "municipality": 26,
+        "district_id": 7
+    },
+    {
+        "name": "Howick",
+        "municipality": 26,
+        "district_id": 7
+    },
+    {
+        "name": "Cool Air",
+        "municipality": 27,
+        "district_id": 7
+    },
+    {
+        "name": "Dalton",
+        "municipality": 27,
+        "district_id": 7
+    },
+    {
+        "name": "New Hanover",
+        "municipality": 27,
+        "district_id": 7
+    },
+    {
+        "name": "Wartburg",
+        "municipality": 27,
+        "district_id": 7
+    },
+    {
+        "name": "Hlabisa",
+        "municipality": 28,
+        "district_id": 8
+    },
+    {
+        "name": "Hluhluwe",
+        "municipality": 28,
+        "district_id": 8
+    },
+    {
+        "name": "Ingwavuma",
+        "municipality": 29,
+        "district_id": 8
+    },
+    {
+        "name": "Jozini",
+        "municipality": 29,
+        "district_id": 8
+    },
+    {
+        "name": "Mkuze",
+        "municipality": 29,
+        "district_id": 8
+    },
+    {
+        "name": "Mtubatuba",
+        "municipality": 30,
+        "district_id": 8
+    },
+    {
+        "name": "St Lucia",
+        "municipality": 30,
+        "district_id": 8
+    },
+    {
+        "name": "Mbazwana",
+        "municipality": 31,
+        "district_id": 8
+    },
+    {
+        "name": "Dundee",
+        "municipality": 32,
+        "district_id": 9
+    },
+    {
+        "name": "Glencoe",
+        "municipality": 32,
+        "district_id": 9
+    },
+    {
+        "name": "Nquthu",
+        "municipality": 33,
+        "district_id": 9
+    },
+    {
+        "name": "Pomeroy",
+        "municipality": 34,
+        "district_id": 9
+    },
+    {
+        "name": "Kranskop",
+        "municipality": 35,
+        "district_id": 9
+    },
+    {
+        "name": "Greytown",
+        "municipality": 35,
+        "district_id": 9
+    },
+    {
+        "name": "Colenso",
+        "municipality": 36,
+        "district_id": 10
+    },
+    {
+        "name": "Ladysmith",
+        "municipality": 36,
+        "district_id": 10
+    },
+    {
+        "name": "Van Reenen",
+        "municipality": 36,
+        "district_id": 10
+    },
+    {
+        "name": "Estcourt",
+        "municipality": 37,
+        "district_id": 10
+    },
+    {
+        "name": "Weenen",
+        "municipality": 37,
+        "district_id": 10
+    },
+    {
+        "name": "Bergville",
+        "municipality": 38,
+        "district_id": 10
+    },
+    {
+        "name": "Cathkin Park",
+        "municipality": 38,
+        "district_id": 10
+    },
+    {
+        "name": "Winterton",
+        "municipality": 38,
+        "district_id": 10
+    },
+    {
+        "name": "Louwsburg",
+        "municipality": 39,
+        "district_id": 11
+    },
+    {
+        "name": "Vryheid",
+        "municipality": 39,
+        "district_id": 11
+    },
+    {
+        "name": "Paulpietersburg",
+        "municipality": 40,
+        "district_id": 11
+    },
+    {
+        "name": "Nongoma",
+        "municipality": 41,
+        "district_id": 11
+    },
+    {
+        "name": "Ulundi",
+        "municipality": 42,
+        "district_id": 11
+    },
+    {
+        "name": "Pongolo",
+        "municipality": 43,
+        "district_id": 11
+    }
+]

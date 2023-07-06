@@ -1,0 +1,174 @@
+[
+    {
+        "name": "Dannhauser Local",
+        "district_id": 2
+    },
+    {
+        "name": "eMadlangeni Local",
+        "district_id": 2
+    },
+    {
+        "name": "Newcastle Local",
+        "district_id": 2
+    },
+    {
+        "name": "Dr Nkosazana Dlamini Zuma Local",
+        "district_id": 3
+    },
+    {
+        "name": "Greater Kokstad Local",
+        "district_id": 3
+    },
+    {
+        "name": "Ubuhlebezwe Local",
+        "district_id": 3
+    },
+    {
+        "name": "Umzimkhulu Local",
+        "district_id": 3
+    },
+    {
+        "name": "KwaDukuza Local",
+        "district_id": 4
+    },
+    {
+        "name": "Mandeni Local",
+        "district_id": 4
+    },
+    {
+        "name": "Maphumulo Local",
+        "district_id": 4
+    },
+    {
+        "name": "Ndwedwe Local",
+        "district_id": 4
+    },
+    {
+        "name": "City of uMhlathuze Local",
+        "district_id": 5
+    },
+    {
+        "name": "Mthonjaneni Local",
+        "district_id": 5
+    },
+    {
+        "name": "Nkandla Local",
+        "district_id": 5
+    },
+    {
+        "name": "uMfolozi Local",
+        "district_id": 5
+    },
+    {
+        "name": "uMlalazi Local",
+        "district_id": 5
+    },
+    {
+        "name": "Ray Nkonyeni Local",
+        "district_id": 6
+    },
+    {
+        "name": "Umdoni Local",
+        "district_id": 6
+    },
+    {
+        "name": "Umuziwabantu Local",
+        "district_id": 6
+    },
+    {
+        "name": "Umzumbe Local",
+        "district_id": 6
+    },
+    {
+        "name": "Impendle Local",
+        "district_id": 7
+    },
+    {
+        "name": "Mkhambathini Local",
+        "district_id": 7
+    },
+    {
+        "name": "Mpofana Local",
+        "district_id": 7
+    },
+    {
+        "name": "Msunduzi Local",
+        "district_id": 7
+    },
+    {
+        "name": "Richmond Local",
+        "district_id": 7
+    },
+    {
+        "name": "uMngeni Local",
+        "district_id": 7
+    },
+    {
+        "name": "uMshwathi Local",
+        "district_id": 7
+    },
+    {
+        "name": "Big 5 Hlabisa Local",
+        "district_id": 8
+    },
+    {
+        "name": "Jozini Local",
+        "district_id": 8
+    },
+    {
+        "name": "Mtubatuba Local",
+        "district_id": 8
+    },
+    {
+        "name": "uMhlabuyalingana Local",
+        "district_id": 8
+    },
+    {
+        "name": "Endumeni Local",
+        "district_id": 9
+    },
+    {
+        "name": "Nquthu Local",
+        "district_id": 9
+    },
+    {
+        "name": "uMsinga Local",
+        "district_id": 9
+    },
+    {
+        "name": "Umvoti Local",
+        "district_id": 9
+    },
+    {
+        "name": "Alfred Duma Local",
+        "district_id": 10
+    },
+    {
+        "name": "Inkosi Langalibalele Local",
+        "district_id": 10
+    },
+    {
+        "name": "Okhahlamba Local",
+        "district_id": 10
+    },
+    {
+        "name": "AbaQulusi Local",
+        "district_id": 11
+    },
+    {
+        "name": "eDumbe Local",
+        "district_id": 11
+    },
+    {
+        "name": "Nongoma Local",
+        "district_id": 11
+    },
+    {
+        "name": "Ulundi Local",
+        "district_id": 11
+    },
+    {
+        "name": "uPhongolo Local",
+        "district_id": 11
+    }
+]

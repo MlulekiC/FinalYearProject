@@ -1,0 +1,28 @@
+{% extends 'base/base.html' %}
+
+{% block content %}
+    <article class="media content-section">
+        <img class="rounded-circle article-img" src="{{ notification.from_user.profile.image.url }}" alt="">
+        <div class="media-body">
+        <h3 class="article-title">
+            {% if notification.notification_type == "post" %}
+                <a href="{% url 'post-detail' notification.extra_id %}">
+                    {{ notification.notification_type }} from {{ notification.from_user }}
+                </a>
+            {% elif notification.notification_type == "alert" %}
+                <a href="{% url 'alert-detail' notification.extra_id %}">
+                    {{ notification.notification_type }} from {{ notification.from_user.municipality }}
+                </a>
+            {% else %}
+                {{ notification.notification_type }} from {{ notification.from_user.municipality }}
+            {% endif %}
+        </h3>
+        <!--
+        {% if post.image %}
+                <img src="{{ post.image.url }}" class="post-image">
+        {% endif %}
+        <p class="article-content">{{ post.content }}</p>
+        -->
+    </div>
+</article>
+{% endblock %}

@@ -1,0 +1,33 @@
+{% extends 'base/base.html' %}
+
+{% block content %}
+    <div class="container">
+        <h2 class="title">Notifications</h2>
+        {% if notifications %}
+            {% for notification in notifications %}
+                <div class="notification">
+                    <p>
+                        {% if notification.notification_type == 'message' %}
+                            <a href="{% url 'notification-detail' notification.pk %}">
+                                <strong>{{ notification.from_user.username }}</strong> sent you a message on
+                                <small>{{ notification.created_on }}</small>
+                            </a>
+                        {% elif notification.notification_type == 'post' %}
+                            <a href="{% url 'notification-detail' notification.pk %}">
+                                <strong>{{ notification.from_user.username }}</strong> posted a new post on
+                                <small>{{ notification.created_on }}</small>
+                            </a>
+                        {% elif notification.notification_type == 'alert' %}
+                            <a href="{% url 'notification-detail' notification.pk %}">
+                                Alert from <strong>{{ notification.from_user.municipality }}</strong> on
+                                <small>{{ notification.created_on }}</small>
+                            </a>
+                        {% endif %}
+                    </p>
+                </div>
+            {% endfor %}
+        {% else %}
+            <h4>No Notifications Yet!</h4>
+        {% endif %}
+    </div>
+{% endblock %}

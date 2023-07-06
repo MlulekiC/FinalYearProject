@@ -1,0 +1,17 @@
+{% extends 'base/base.html' %}
+{% load crispy_forms_tags %}
+{% load static %}
+
+{% block content %}
+    <article class="media content-section">
+        <img class="rounded-circle article-img" src="{{ alert.author.profile.image.url }}" alt="">
+        <div class="media-body">
+            <div class="article-metadata">
+                <a class="mr-2" href="#">{{ alert.author.municipality }}</a>
+                <small class="text-muted">{{ alert.created_on }}</small>
+            </div>
+            <h3 class="article-title">Alert for {{ alert.location }} Residents!</h3>
+            <p class="article-content">{{ alert.content }}</p>
+        </div>
+    </article>
+{% endblock %}

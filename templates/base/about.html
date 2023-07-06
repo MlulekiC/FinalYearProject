@@ -1,0 +1,31 @@
+{% extends 'base/base.html' %}
+{% load static %}
+
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Page</title>
+    <link rel="stylesheet" href="{% static 'base/about.css' %}">
+</head>
+<body>
+    <div class="picture" >
+        <img src="https://tse3.mm.bing.net/th?id=OIP.Z9z6tHEDHg5A4ajWCDpCvAHaE8&pid=Api&P=0" alt="getting water">
+        <h1>About Us</h1>
+    </div>
+    <div>
+        <div class="text">
+            <p>We as the water supply interaction platform development team discovered that thousands of people lack access to clean water and they are not intact with their service providers. So we came up with the an idea of creating this web application which will assist Rural residents.
+                Water supply interaction platform was designed to enable rural residents to interact with their municipalities. Join our community today to help save yours 
+                <span>
+                    contact us on(035 911 000) or email us at watercrisismanagementsystem@gmail.com
+                </span>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
+{% endblock %}

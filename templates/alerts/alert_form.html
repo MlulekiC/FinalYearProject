@@ -1,0 +1,36 @@
+{% extends 'base/base.html' %}
+
+
+{% load crispy_forms_tags %}
+
+{% block content %}
+    {% if user.is_staff %}
+        <div class="content-section">
+            <form method="POST">
+                {% csrf_token %}
+                <fieldset class="form-group">
+                    <legend class="border-bottom mb-4">Send an Alert</legend>
+
+                    <div class="field required">
+                        <div class="ui selection dropdown" id="admin-towns">
+                            <input type="hidden" name="town">
+                            <i class="dropdown icon"></i>
+                            <div class="default text" id="town-text">Choose location</div>
+                            <div class="menu" id="admin-town-data-box"></div>
+                        </div>
+                    </div>
+
+                    <div class="form-group mt-1">
+                        <label for="message">Message*</label>
+                        <textarea class="form-control" name="message" id="message" cols="90" rows="4"></textarea>
+                    </div>
+                </fieldset>
+                <div class="form-group">
+                    <button class="btn btn-outline-info" type="submit">Send</button>
+                </div>
+            </form>
+        </div>
+    {% else %}
+        <h2>Only admins can send Alert</h2>
+    {% endif %}
+{% endblock %}
